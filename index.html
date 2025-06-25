@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Craft Studio - Katalog Template</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom Animasi -->
+    <style>
+      @keyframes fadeUp {
+        0% {
+          opacity: 0;
+          transform: translateY(40px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .fade-in-up {
+        animation: fadeUp 0.7s ease-out both;
+      }
+    </style>
+  </head>
+
+  <body class="bg-gray-950 text-white font-sans antialiased">
+  <!-- 🟦 NAVBAR -->
+<nav class="bg-blue-600 px-4 md:px-10 py-4 flex justify-between items-center shadow-md">
+  <!-- Kiri: Logo + Brand -->
+  <div class="flex items-center gap-3">
+    <img src="./images/logo-codecraft-studio1.jpeg" alt="Logo" class="w-10 h-10 rounded-full bg-black p-1" />
+    <span class="text-xl font-bold text-white">Code Craft Studio</span>
+  </div>
+
+  <!-- Kanan: Navigasi -->
+  <div class="flex gap-6 pr-2">
+    <a href="#faq" class="text-white text-sm hover:underline">FAQ</a>
+    <a href="license.html" class="text-white text-sm hover:underline">About</a>
+  </div>
+</nav>
+
+
+    <!-- 🧾 HEADER -->
+    <header class="text-center py-10">
+      <h1 class="text-4xl font-bold">🎨 Katalog Template Website - Code Craft Studio</h1>
+      <p class="text-gray-400 mt-2">Template portofolio & landing page keren siap pakai</p>
+    </header>
+
+    <!-- 🛍️ PRODUK GRID -->
+    <main class="px-4 md:px-10 pb-20">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <!-- === Awal Produk 1 === -->
+<div
+  class="group relative bg-gray-900 rounded-xl overflow-hidden border border-gray-800 transition-all duration-300 hover:scale-[1.03] hover:shadow-[0_0_25px_#00f7ff66]"
+>
+  <!-- Efek Glow Neon -->
+  <div class="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition duration-500 blur-xl bg-cyan-400/20 z-0"></div>
+
+  <img
+    src="./images/tamplate-portofolio-3.png"
+    alt="Template Portofolio"
+    class="w-full h-auto object-cover relative z-10"
+  />
+
+  <div class="relative z-10 p-5 flex flex-col gap-4">
+    <h2 class="text-xl font-semibold">Template Portofolio Premium - 3</h2>
+    <p class="text-gray-400 text-sm leading-relaxed">
+      Cocok untuk freelance pemula, bahan pembelajaran, DLL. ringan, dan mudah diedit sesuai kebutuhan.
+    </p>
+
+    <!-- 💸 HARGA -->
+    <div>
+      <p class="text-sm text-red-400 line-through">Rp 23.000</p>
+      <p class="text-xl text-green-400 font-bold">Rp 15.000</p>
+    </div>
+
+    <!-- 🔘 BUTTONS -->
+    <div class="flex gap-3 mt-2">
+      <a
+        href="https://demo.vercel.app/porto1"
+        target="_blank"
+        class="bg-gray-800 hover:bg-gray-700 px-5 py-2 rounded text-sm transition w-fit"
+      >
+        🔍 Preview
+      </a>
+      <a
+        href="https://wa.me/6281234567890?text=Halo,%20saya%20tertarik%20membeli%20Template%20Portofolio%20Sederhana"
+        class="bg-green-600 hover:bg-green-500 px-5 py-2 text-white rounded text-sm transition w-fit"
+      >
+        🛒 Beli Sekarang
+      </a>
+    </div>
+  </div>
+</div>
+<!-- === Akhir Produk 1 === -->
+
+      </div>
+    </main>
+
+    <!-- ❓FAQ Section (optional jika butuh isi nanti) -->
+    <section id="faq" class="px-4 md:px-10 pb-20 text-center">
+      <h2 class="text-2xl font-bold mb-4">Pertanyaan yang Sering Diajukan</h2>
+<div class="max-w-4xl mx-auto text-left space-y-4 mt-10">
+
+  <!-- FAQ Item 1 -->
+  <details class="bg-gray-900 rounded-lg p-4 group border border-gray-700">
+    <summary class="cursor-pointer text-white font-semibold group-open:mb-2">
+      1. Apa itu Code Craft Studio?
+    </summary>
+    <p class="text-gray-400 text-sm">
+      Code Craft Studio adalah platform digital yang menyediakan template website portofolio, landing page, dan proyek siap pakai untuk para freelancer, pelajar, maupun pebisnis digital.
+    </p>
+  </details>
+
+  <!-- FAQ Item 2 -->
+  <details class="bg-gray-900 rounded-lg p-4 group border border-gray-700">
+    <summary class="cursor-pointer text-white font-semibold group-open:mb-2">
+      2. Bagaimana cara membeli template?
+    </summary>
+    <p class="text-gray-400 text-sm">
+      Klik tombol "Beli Sekarang" pada template yang kamu inginkan. Kamu akan diarahkan ke WhatsApp kami untuk menyelesaikan proses pembayaran dan pengiriman file.
+    </p>
+  </details>
+
+  <!-- FAQ Item 3 -->
+  <details class="bg-gray-900 rounded-lg p-4 group border border-gray-700">
+    <summary class="cursor-pointer text-white font-semibold group-open:mb-2">
+      3. Apa metode pembayaran yang didukung?
+    </summary>
+    <p class="text-gray-400 text-sm">
+      Kami menerima pembayaran melalui QRIS All Payment dari aplikasi DevPay. Praktis, cepat, dan aman.
+    </p>
+  </details>
+
+  <!-- FAQ Item 4 -->
+  <details class="bg-gray-900 rounded-lg p-4 group border border-gray-700">
+    <summary class="cursor-pointer text-white font-semibold group-open:mb-2">
+      4. Setelah beli, file dikirim lewat mana?
+    </summary>
+    <p class="text-gray-400 text-sm">
+      Setelah pembayaran dikonfirmasi, file template akan dikirim melalui Google Drive atau link unduhan khusus yang bersifat private.
+    </p>
+  </details>
+
+  <!-- FAQ Item 5 (versi revisi etis & detail) -->
+  <details class="bg-gray-900 rounded-lg p-4 group border border-gray-700">
+    <summary class="cursor-pointer text-white font-semibold group-open:mb-2">
+      5. Bolehkah saya menggunakan template ini untuk client saya?
+    </summary>
+    <p class="text-gray-400 text-sm">
+      Ya, kamu boleh menggunakan template untuk proyek client yang kamu kerjakan secara pribadi.
+      Namun, template ini <span class="text-red-400 font-semibold">tidak boleh diperjualbelikan ulang</span> secara mentah, misalnya diupload ulang ke marketplace, diklaim sebagai karya sendiri, atau dijual dalam bentuk bundling produk digital.
+    </p>
+  </details>
+
+  <!-- FAQ Item 6 -->
+  <details class="bg-gray-900 rounded-lg p-4 group border border-gray-700">
+    <summary class="cursor-pointer text-white font-semibold group-open:mb-2">
+      6. Apakah saya bisa request template custom?
+    </summary>
+    <p class="text-gray-400 text-sm">
+      Tentu saja! Hubungi kami via WhatsApp dan tim kami akan bantu pembuatan template custom sesuai kebutuhan kamu.
+    </p>
+  </details>
+
+</div>
+
+
+    </section>
+  </body>
+</html>
